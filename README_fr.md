@@ -16,8 +16,7 @@ Il NE doit PAS être modifié à la main.
 
 ## Vue d’ensemble
 
-Ceci est une fausse description des fonctionalités de l'app
-
+Appels peer to peer WebRTC pour tous.
 
 **Version incluse :** 4.2.7~ynh1
 
