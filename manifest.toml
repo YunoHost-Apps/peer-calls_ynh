@@ -1,0 +1,67 @@
+#:schema https://raw.githubusercontent.com/YunoHost/apps/master/schemas/manifest.v2.schema.json
+
+packaging_format = 2
+
+id = "peercalls"
+name = "Peer-calls"
+description.en = "Group peer to peer video calls for everyone"
+description.fr = "Appels vidéo de groupe peer to peer pour tout le monde"
+
+version = "4.2.7~ynh1"
+
+maintainers = ["eric_G"]
+
+[upstream]
+license = " Apache-2.0"
+demo = "https://peercalls.com/"
+code = "https://github.com/peer-calls/peer-calls"
+
+[integration]
+yunohost = ">= 11.2.30"
+helpers_version = "2.1"
+architectures = "all"
+multi_instance = true
+
+ldap = false
+sso = false
+
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/peercalls"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+[resources]
+
+    [resources.sources]
+
+    [resources.sources.main]
+    in_subdir = false
+    extract = true
+    amd64.url = "https://github.com/peer-calls/peer-calls/releases/download/v4.2.7/peercalls.linux.amd64.v4.2.7.tar.gz"
+    amd64.sha256 = "2a540502018c10fc391906c2ca6ccc377e2de47636becd13db66518a37e65164"
+    armhf.url = "https://github.com/peer-calls/peer-calls/releases/download/v4.2.7/peercalls.linux.arm.v4.2.7.tar.gz"
+    armhf.ha256 = "9ebd035ed4a9384dce0d4a11e4d085f5cc948d42171aafd00da729f8ccb9f8e5"
+
+    autoupdate.strategy = "latest_github_tag"
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.data_dir]
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.ports]
