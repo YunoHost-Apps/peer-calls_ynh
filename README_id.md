@@ -5,9 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # Peer-calls untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/peercalls.svg)](https://ci-apps.yunohost.org/ci/apps/peercalls/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/peercalls.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/peercalls.maintain.svg)
+[![Tingkat integrasi](https://dash.yunohost.org/integration/peer-calls.svg)](https://ci-apps.yunohost.org/ci/apps/peer-calls/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/peer-calls.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/peer-calls.maintain.svg)
 
-[![Pasang Peer-calls dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=peercalls)
+[![Pasang Peer-calls dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=peer-calls)
 
 *[Baca README ini dengan bahasa yang lain.](./ALL_README.md)*
 
@@ -29,19 +29,19 @@ WebRTC peer to peer calls for everyone.
 ## Dokumentasi dan sumber daya
 
 - Depot kode aplikasi hulu: <https://github.com/peer-calls/peer-calls>
-- Gudang YunoHost: <https://apps.yunohost.org/app/peercalls>
-- Laporkan bug: <https://github.com/YunoHost-Apps/peercalls_ynh/issues>
+- Gudang YunoHost: <https://apps.yunohost.org/app/peer-calls>
+- Laporkan bug: <https://github.com/YunoHost-Apps/peer-calls_ynh/issues>
 
 ## Info developer
 
-Silakan kirim pull request ke [`testing` branch](https://github.com/YunoHost-Apps/peercalls_ynh/tree/testing).
+Silakan kirim pull request ke [`testing` branch](https://github.com/YunoHost-Apps/peer-calls_ynh/tree/testing).
 
 Untuk mencoba branch `testing`, silakan dilanjutkan seperti:
 
 ```bash
-sudo yunohost app install https://github.com/YunoHost-Apps/peercalls_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/peer-calls_ynh/tree/testing --debug
 atau
-sudo yunohost app upgrade peercalls -u https://github.com/YunoHost-Apps/peercalls_ynh/tree/testing --debug
+sudo yunohost app upgrade peer-calls -u https://github.com/YunoHost-Apps/peer-calls_ynh/tree/testing --debug
 ```
 
 **Info lebih lanjut mengenai pemaketan aplikasi:** <https://yunohost.org/packaging_apps>

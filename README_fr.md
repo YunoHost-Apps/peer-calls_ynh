@@ -5,9 +5,9 @@ Il NE doit PAS être modifié à la main.
 
 # Peer-calls pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/peercalls.svg)](https://ci-apps.yunohost.org/ci/apps/peercalls/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/peercalls.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/peercalls.maintain.svg)
+[![Niveau d’intégration](https://dash.yunohost.org/integration/peer-calls.svg)](https://ci-apps.yunohost.org/ci/apps/peer-calls/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/peer-calls.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/peer-calls.maintain.svg)
 
-[![Installer Peer-calls avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=peercalls)
+[![Installer Peer-calls avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=peer-calls)
 
 *[Lire le README dans d'autres langues.](./ALL_README.md)*
 
@@ -16,8 +16,7 @@ Il NE doit PAS être modifié à la main.
 
 ## Vue d’ensemble
 
-Ceci est une fausse description des fonctionalités de l'app
-
+Appels peer to peer WebRTC pour tous.
 
 **Version incluse :** 4.2.7~ynh1
 
@@ -30,19 +29,19 @@ Ceci est une fausse description des fonctionalités de l'app
 ## Documentations et ressources
 
 - Dépôt de code officiel de l’app : <https://github.com/peer-calls/peer-calls>
-- YunoHost Store : <https://apps.yunohost.org/app/peercalls>
-- Signaler un bug : <https://github.com/YunoHost-Apps/peercalls_ynh/issues>
+- YunoHost Store : <https://apps.yunohost.org/app/peer-calls>
+- Signaler un bug : <https://github.com/YunoHost-Apps/peer-calls_ynh/issues>
 
 ## Informations pour les développeurs
 
-Merci de faire vos pull request sur la [branche `testing`](https://github.com/YunoHost-Apps/peercalls_ynh/tree/testing).
+Merci de faire vos pull request sur la [branche `testing`](https://github.com/YunoHost-Apps/peer-calls_ynh/tree/testing).
 
 Pour essayer la branche `testing`, procédez comme suit :
 
 ```bash
-sudo yunohost app install https://github.com/YunoHost-Apps/peercalls_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/peer-calls_ynh/tree/testing --debug
 ou
-sudo yunohost app upgrade peercalls -u https://github.com/YunoHost-Apps/peercalls_ynh/tree/testing --debug
+sudo yunohost app upgrade peer-calls -u https://github.com/YunoHost-Apps/peer-calls_ynh/tree/testing --debug
 ```
 
 **Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>

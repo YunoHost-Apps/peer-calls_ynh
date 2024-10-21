@@ -5,9 +5,9 @@ No se debe editar a mano.
 
 # Peer-calls para Yunohost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/peercalls.svg)](https://ci-apps.yunohost.org/ci/apps/peercalls/) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/peercalls.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/peercalls.maintain.svg)
+[![Nivel de integración](https://dash.yunohost.org/integration/peer-calls.svg)](https://ci-apps.yunohost.org/ci/apps/peer-calls/) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/peer-calls.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/peer-calls.maintain.svg)
 
-[![Instalar Peer-calls con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=peercalls)
+[![Instalar Peer-calls con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=peer-calls)
 
 *[Leer este README en otros idiomas.](./ALL_README.md)*
 
@@ -29,19 +29,19 @@ WebRTC peer to peer calls for everyone.
 ## Documentaciones y recursos
 
 - Repositorio del código fuente oficial de la aplicación : <https://github.com/peer-calls/peer-calls>
-- Catálogo YunoHost: <https://apps.yunohost.org/app/peercalls>
-- Reportar un error: <https://github.com/YunoHost-Apps/peercalls_ynh/issues>
+- Catálogo YunoHost: <https://apps.yunohost.org/app/peer-calls>
+- Reportar un error: <https://github.com/YunoHost-Apps/peer-calls_ynh/issues>
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/peercalls_ynh/tree/testing).
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/peer-calls_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
 ```bash
-sudo yunohost app install https://github.com/YunoHost-Apps/peercalls_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/peer-calls_ynh/tree/testing --debug
 o
-sudo yunohost app upgrade peercalls -u https://github.com/YunoHost-Apps/peercalls_ynh/tree/testing --debug
+sudo yunohost app upgrade peer-calls -u https://github.com/YunoHost-Apps/peer-calls_ynh/tree/testing --debug
 ```
 
 **Mas informaciones sobre el empaquetado de aplicaciones:** <https://yunohost.org/packaging_apps>

@@ -5,9 +5,9 @@ EZ editatu eskuz.
 
 # Peer-calls YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/peercalls.svg)](https://ci-apps.yunohost.org/ci/apps/peercalls/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/peercalls.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/peercalls.maintain.svg)
+[![Integrazio maila](https://dash.yunohost.org/integration/peer-calls.svg)](https://ci-apps.yunohost.org/ci/apps/peer-calls/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/peer-calls.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/peer-calls.maintain.svg)
 
-[![Instalatu Peer-calls YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=peercalls)
+[![Instalatu Peer-calls YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=peer-calls)
 
 *[Irakurri README hau beste hizkuntzatan.](./ALL_README.md)*
 
@@ -29,19 +29,19 @@ WebRTC peer to peer calls for everyone.
 ## Dokumentazioa eta baliabideak
 
 - Jatorrizko aplikazioaren kode-gordailua: <https://github.com/peer-calls/peer-calls>
-- YunoHost Denda: <https://apps.yunohost.org/app/peercalls>
-- Eman errore baten berri: <https://github.com/YunoHost-Apps/peercalls_ynh/issues>
+- YunoHost Denda: <https://apps.yunohost.org/app/peer-calls>
+- Eman errore baten berri: <https://github.com/YunoHost-Apps/peer-calls_ynh/issues>
 
 ## Garatzaileentzako informazioa
 
-Bidali `pull request`a [`testing` abarrera](https://github.com/YunoHost-Apps/peercalls_ynh/tree/testing).
+Bidali `pull request`a [`testing` abarrera](https://github.com/YunoHost-Apps/peer-calls_ynh/tree/testing).
 
 `testing` abarra probatzeko, ondorengoa egin:
 
 ```bash
-sudo yunohost app install https://github.com/YunoHost-Apps/peercalls_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/peer-calls_ynh/tree/testing --debug
 edo
-sudo yunohost app upgrade peercalls -u https://github.com/YunoHost-Apps/peercalls_ynh/tree/testing --debug
+sudo yunohost app upgrade peer-calls -u https://github.com/YunoHost-Apps/peer-calls_ynh/tree/testing --debug
 ```
 
 **Informazio gehiago aplikazioaren paketatzeari buruz:** <https://yunohost.org/packaging_apps>

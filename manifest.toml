@@ -2,7 +2,7 @@
 
 packaging_format = 2
 
-id = "peercalls"
+id = "peer-calls"
 name = "Peer-calls"
 description.en = "Group peer to peer video calls for everyone"
 description.fr = "Appels vidéo de groupe peer to peer pour tout le monde"
@@ -19,7 +19,7 @@ code = "https://github.com/peer-calls/peer-calls"
 [integration]
 yunohost = ">= 11.2.30"
 helpers_version = "2.1"
-architectures = "all"
+architectures = ["amd64", "armhf"]
 multi_instance = true
 
 ldap = false
@@ -58,8 +58,6 @@ ram.runtime = "50M"
     [resources.system_user]
 
     [resources.install_dir]
-
-    [resources.data_dir]
 
     [resources.permissions]
     main.url = "/"
