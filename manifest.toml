@@ -2,7 +2,7 @@
 
 packaging_format = 2
 
-id = "peercalls"
+id = "peer-calls"
 name = "Peer-calls"
 description.en = "Group peer to peer video calls for everyone"
 description.fr = "Appels vidéo de groupe peer to peer pour tout le monde"
