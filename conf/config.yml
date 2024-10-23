@@ -1,4 +1,4 @@
-base_url: '__PATH__'
+base_url: ''
 bind_host: '127.0.0.1'
 bind_port: __PORT__
 #ice_servers:
