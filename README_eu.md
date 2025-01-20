@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # Peer-calls YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/peer-calls.svg)](https://ci-apps.yunohost.org/ci/apps/peer-calls/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/peer-calls.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/peer-calls.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/peer-calls)](https://ci-apps.yunohost.org/ci/apps/peer-calls/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/peer-calls)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/peer-calls)
 
 [![Instalatu Peer-calls YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=peer-calls)
 
@@ -18,7 +20,7 @@ EZ editatu eskuz.
 
 WebRTC peer to peer calls for everyone.
 
-**Paketatutako bertsioa:** 4.2.7~ynh1
+**Paketatutako bertsioa:** 4.2.7~ynh2
 
 **Demoa:** <https://peercalls.com/>
 

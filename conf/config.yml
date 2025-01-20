@@ -23,11 +23,11 @@ store:
   #   port: 6379
   #   prefix: peercalls
 network:
-  type: mesh
-  # type: sfu
-  # sfu:
-  #   interfaces:
-  #   - eth0
+  type: sfu
+  sfu:
+    interfaces:
+    - eth0
+  #type: mesh
 prometheus:
   access_token: "mytoken"
 frontend:

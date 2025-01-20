@@ -7,7 +7,7 @@ name = "Peer-calls"
 description.en = "Group peer to peer video calls for everyone"
 description.fr = "Appels vidéo de groupe peer to peer pour tout le monde"
 
-version = "4.2.7~ynh1"
+version = "4.2.7~ynh2"
 
 maintainers = ["eric_G"]
 
@@ -17,7 +17,7 @@ demo = "https://peercalls.com/"
 code = "https://github.com/peer-calls/peer-calls"
 
 [integration]
-yunohost = ">= 11.2.30"
+yunohost = ">= 12.0.9"
 helpers_version = "2.1"
 architectures = ["amd64", "armhf"]
 multi_instance = true

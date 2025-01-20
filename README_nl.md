@@ -5,7 +5,9 @@ Hij mag NIET handmatig aangepast worden.
 
 # Peer-calls voor Yunohost
 
-[![Integratieniveau](https://dash.yunohost.org/integration/peer-calls.svg)](https://ci-apps.yunohost.org/ci/apps/peer-calls/) ![Mate van functioneren](https://ci-apps.yunohost.org/ci/badges/peer-calls.status.svg) ![Onderhoudsstatus](https://ci-apps.yunohost.org/ci/badges/peer-calls.maintain.svg)
+[![Integratieniveau](https://apps.yunohost.org/badge/integration/peer-calls)](https://ci-apps.yunohost.org/ci/apps/peer-calls/)
+![Mate van functioneren](https://apps.yunohost.org/badge/state/peer-calls)
+![Onderhoudsstatus](https://apps.yunohost.org/badge/maintained/peer-calls)
 
 [![Peer-calls met Yunohost installeren](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=peer-calls)
 
@@ -18,7 +20,7 @@ Hij mag NIET handmatig aangepast worden.
 
 WebRTC peer to peer calls for everyone.
 
-**Geleverde versie:** 4.2.7~ynh1
+**Geleverde versie:** 4.2.7~ynh2
 
 **Demo:** <https://peercalls.com/>
 
