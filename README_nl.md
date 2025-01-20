@@ -20,7 +20,7 @@ Hij mag NIET handmatig aangepast worden.
 
 WebRTC peer to peer calls for everyone.
 
-**Geleverde versie:** 4.2.7~ynh1
+**Geleverde versie:** 4.2.7~ynh2
 
 **Demo:** <https://peercalls.com/>
 

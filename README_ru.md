@@ -20,7 +20,7 @@
 
 WebRTC peer to peer calls for everyone.
 
-**Поставляемая версия:** 4.2.7~ynh1
+**Поставляемая версия:** 4.2.7~ynh2
 
 **Демо-версия:** <https://peercalls.com/>
 
