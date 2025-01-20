@@ -5,7 +5,9 @@
 
 # Peer-calls для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/peer-calls.svg)](https://ci-apps.yunohost.org/ci/apps/peer-calls/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/peer-calls.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/peer-calls.maintain.svg)
+[![Уровень интеграции](https://apps.yunohost.org/badge/integration/peer-calls)](https://ci-apps.yunohost.org/ci/apps/peer-calls/)
+![Состояние работы](https://apps.yunohost.org/badge/state/peer-calls)
+![Состояние сопровождения](https://apps.yunohost.org/badge/maintained/peer-calls)
 
 [![Установите Peer-calls с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=peer-calls)
 

@@ -5,7 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # Peer-calls untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/peer-calls.svg)](https://ci-apps.yunohost.org/ci/apps/peer-calls/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/peer-calls.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/peer-calls.maintain.svg)
+[![Tingkat integrasi](https://apps.yunohost.org/badge/integration/peer-calls)](https://ci-apps.yunohost.org/ci/apps/peer-calls/)
+![Status kerja](https://apps.yunohost.org/badge/state/peer-calls)
+![Status pemeliharaan](https://apps.yunohost.org/badge/maintained/peer-calls)
 
 [![Pasang Peer-calls dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=peer-calls)
 
