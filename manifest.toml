@@ -47,7 +47,7 @@ ram.runtime = "50M"
     amd64.url = "https://github.com/peer-calls/peer-calls/releases/download/v4.2.7/peercalls.linux.amd64.v4.2.7.tar.gz"
     amd64.sha256 = "2a540502018c10fc391906c2ca6ccc377e2de47636becd13db66518a37e65164"
     armhf.url = "https://github.com/peer-calls/peer-calls/releases/download/v4.2.7/peercalls.linux.arm.v4.2.7.tar.gz"
-    armhf.ha256 = "9ebd035ed4a9384dce0d4a11e4d085f5cc948d42171aafd00da729f8ccb9f8e5"
+    armhf.sha256 = "9ebd035ed4a9384dce0d4a11e4d085f5cc948d42171aafd00da729f8ccb9f8e5"
 
     autoupdate.strategy = "latest_github_tag"
 
