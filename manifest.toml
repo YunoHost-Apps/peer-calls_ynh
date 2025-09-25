@@ -61,4 +61,4 @@ ram.runtime = "50M"
     [resources.ports]
 
     [resources.apt]
-    packages = "libc6"
+    packages = ["libc6"]
